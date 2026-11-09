@@ -127,9 +127,11 @@
     <div class="max-w-7xl mx-auto flex items-center justify-between glass-panel px-6 py-3.5 rounded-2xl shadow-glass">
       <!-- Logo / Name -->
       <a href="#hero" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-cyan to-brand-blue flex items-center justify-center font-mono font-bold text-slate-950 text-xl shadow-glow-cyan transition-transform group-hover:scale-105">
-          AB
-        </div>
+      <img 
+           src="image.jpg" 
+           alt="Abhigyan Bhatia" 
+           class="w-10 h-10 rounded-xl object-cover border border-cyan-400/30 shadow-sm"
+           />
         <div>
           <span class="font-bold text-white tracking-tight text-lg group-hover:text-brand-cyan transition-colors">Abhigyan Bhatia</span>
           <span class="hidden sm:inline-block text-xs font-mono text-cyan-400/80 block -mt-1 font-medium">IoT & Software Architect</span>
@@ -189,23 +191,24 @@
               <span class="animate-ping-slow absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-cyan"></span>
             </span>
-            <span>Available for High-Impact Projects & Architectural Roles</span>
+            <span>Open for Enterprise CCTV,Networking & Bulk IT Supply</span>
           </div>
 
           <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15]">
-            Bridging <span class="text-gradient">Real-World Hardware</span> with Robust Software.
+            "Powering <span class="text-gradient"> Enterprise Security</span> with Bulk IT Hardware Solutions"
           </h1>
 
           <p class="text-slate-400 text-lg sm:text-xl font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
-            I am <strong class="text-white font-semibold">Abhigyan Bhatia</strong> — a Computer Engineering Technologist, Full-Stack & Mobile Developer, and Enterprise CCTV / IoT Solutions Architect rooted in Yamunanagar & Chandpur, Haryana.
+            Hi, I’m <strong class="text-white font-semibold">Abhigyan Bhatia</strong> — Currently pursuing  diploma in Computer Engineering while managing operations at Bhatia Computers & Electronics.
+
           </p>
 
           <!-- Core Role Badges -->
           <div class="flex flex-wrap gap-2 justify-center lg:justify-start pt-2">
-            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-code text-cyan-400 mr-1.5"></i>Flutter & Full-Stack</span>
-            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-video text-blue-400 mr-1.5"></i>Enterprise CCTV & NVR</span>
-            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-microchip text-purple-400 mr-1.5"></i>IoT & Smart Transit</span>
-            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-users text-emerald-400 mr-1.5"></i>Youth Leader & General Secretary</span>
+            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-gamepad text-cyan-400 mr-1.5"></i>IT & Networking</span>
+            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-video text-blue-400 mr-1.5"></i>Enterprise CCTV & Security</span>
+            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-microchip text-purple-400 mr-1.5"></i>Sales & Marketing</span>
+            <span class="px-3 py-1 rounded-md text-xs font-mono bg-slate-800/80 border border-slate-700/60 text-slate-300"><i class="fa-solid fa-users text-emerald-400 mr-1.5"></i>NSS Volunteer & General Secretary"Damla Polythenic Youth Club</span>
           </div>
 
           <!-- Hero Buttons -->
@@ -218,7 +221,7 @@
               <i class="fa-solid fa-timeline"></i>
               <span>View Experience</span>
             </a>
-            <button onclick="downloadResumeNotice()" class="px-5 py-3 rounded-xl glass-card text-slate-300 hover:text-white font-medium text-sm flex items-center gap-2 hover:border-cyan-500/40">
+            <button onclick="Abhigyan.bhatia.Resume.pdf()" class="px-5 py-3 rounded-xl glass-card text-slate-300 hover:text-white font-medium text-sm flex items-center gap-2 hover:border-cyan-500/40">
               <i class="fa-solid fa-file-arrow-down text-brand-cyan"></i>
               <span>Curriculum Vitae</span>
             </button>
@@ -1104,7 +1107,7 @@
 
     // Copy to clipboard helper
     function copyEmailToClipboard() {
-      const email = 'abhigyanbhatia.tech@gmail.com';
+      const email = 'abhigyanbhatia18@gmail.com';
       const dummy = document.createElement('textarea');
       document.body.appendChild(dummy);
       dummy.value = email;
