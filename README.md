@@ -1,1 +1,0 @@
-# ver_tia2511.github.io
