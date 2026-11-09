@@ -1,3 +1,5 @@
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/839f3bab-c834-41af-ba57-42d4b51dba36" />
+[Abhigyan bhatia Resume.pdf](https://github.com/user-attachments/files/34578492/Abhigyan.bhatia.Resume.pdf)
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
