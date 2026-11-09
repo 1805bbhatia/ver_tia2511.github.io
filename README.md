@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
@@ -220,10 +221,10 @@
               <i class="fa-solid fa-timeline"></i>
               <span>View Experience</span>
             </a>
-            <button onclick="Abhigyan.bhatia.Resume.pdf()" class="px-5 py-3 rounded-xl glass-card text-slate-300 hover:text-white font-medium text-sm flex items-center gap-2 hover:border-cyan-500/40">
+            <a href="Abhigyan_Bhatia_Resume.pdf" download="Abhigyan_Bhatia_Resume.pdf" class="px-5 py-3 rounded-xl glass-card text-slate-300 hover:text-white font-medium text-sm flex items-center gap-2 hover:border-cyan-500/40">
               <i class="fa-solid fa-file-arrow-down text-brand-cyan"></i>
               <span>Curriculum Vitae</span>
-            </button>
+            </a>
           </div>
 
           <!-- Quick Stats Counter -->
